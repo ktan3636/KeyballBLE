@@ -80,10 +80,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_7             &kp NUMBER_8     &kp NUMBER_9  &kp MINUS                   &kp LEFT_PARENTHESIS                                                                   &kp PERCENT        &kp DOLLAR  &kp AMPERSAND  &kp CARET        &kp SLASH
-&lt 2 NUMBER_4           &kp NUMBER_5     &kp NUMBER_6  &kp PLUS                    &kp RIGHT_PARENTHESIS  &kp LC(LA(KP_NUMBER_0))            &kp UNDERSCORE               &kp AT_SIGN        &kp HASH    &kp ASTERISK   &kp PLUS         &lt 2 EQUAL
-&kp NUMBER_1             &kp NUMBER_2     &kp NUMBER_3  &kp ASTERISK                &kp SLASH              &kp EQUAL                          &trans                       &kp GRAVE          &kp TILDE   &kp COMMA      &kp EXCLAMATION  &kp QUESTION
-&mt LEFT_SHIFT CAPSLOCK  &kp KP_NUMBER_0  &kp PERIOD    &mt LEFT_CONTROL LESS_THAN  &mt LEFT_ALT EQUAL     &mt LEFT_COMMAND GREATER_THAN      &mt RIGHT_COMMAND BACKSPACE  &mt RIGHT_ALT RET                                              &mt RIGHT_SHIFT ESCAPE
+&kp NUMBER_7             &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                   &kp LEFT_PARENTHESIS                                                                   &kp PERCENT        &kp DOLLAR  &kp AMPERSAND  &kp CARET        &kp SLASH
+&lt 2 NUMBER_4           &kp NUMBER_5  &kp NUMBER_6  &kp PLUS                    &kp RIGHT_PARENTHESIS  &kp LC(LA(KP_NUMBER_0))            &kp UNDERSCORE               &kp AT_SIGN        &kp HASH    &kp ASTERISK   &kp PLUS         &lt 2 EQUAL
+&kp NUMBER_1             &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK                &kp SLASH              &kp EQUAL                          &trans                       &kp GRAVE          &kp TILDE   &kp COMMA      &kp EXCLAMATION  &kp QUESTION
+&mt LEFT_SHIFT CAPSLOCK  &kp NUMBER_0  &kp PERIOD    &mt LEFT_CONTROL LESS_THAN  &mt LEFT_ALT EQUAL     &mt LEFT_COMMAND GREATER_THAN      &mt RIGHT_COMMAND BACKSPACE  &mt RIGHT_ALT RET                                              &mt RIGHT_SHIFT ESCAPE
             >;
 
             sensor-bindings = <&ROTATE SCRL_LEFT SCRL_RIGHT>;
